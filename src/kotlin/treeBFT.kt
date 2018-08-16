@@ -35,16 +35,19 @@ fun printTree(n: Node)
     }
 }
 
-//       1
+
+fun main(args: Array<String>) {
+    //       1
 //      /  \
 //    2      3
 //   / \      \
 //  4   5      6
 //     / \     /
 //    7  8     9
-var root = Node(1,
-        Node(2,
-                Node(4,null,null),Node(5,Node(7,null,null),Node(8,null,null))),
-        Node(3,null,Node(6,Node(9,null,null),null))
-)
-printTree(root)
+    var root = Node(1,
+            Node(2,
+                    Node(4,null,null),Node(5,Node(7,null,null),Node(8,null,null))),
+            Node(3,null,Node(6,Node(9,null,null),null))
+    )
+    printTree(root)
+}

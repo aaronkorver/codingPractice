@@ -8,6 +8,7 @@
         }
     }
 
-
-var myarray = intArrayOf(1,2,3,4)
-     printunorderedPairs(myarray)
+     fun main(args: Array<String>) {
+         var myarray = intArrayOf(1,2,3,4)
+         printunorderedPairs(myarray)
+     }

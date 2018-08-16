@@ -23,8 +23,10 @@ fun merge(first: Array<Int>, second: Array<Int>) : Array<Int>
 
 }// = (first + second).sortedArray()
 
+fun main(args: Array<String>) {
+    var x = arrayOf(1, 5, 9)
+    var y = arrayOf(3, 4, 7, 10)
 
-            var x = arrayOf(1, 5, 9)
-            var y = arrayOf(3, 4, 7, 10)
+    merge(x,y).forEach { println(it) }
+}
 
-            merge(x,y).forEach { println(it) }
